@@ -13,6 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.WP8", "Sample.WP8\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMessenger.Tests", "TinyMessenger.Tests\TinyMessenger.Tests.csproj", "{4F6F8945-C6AB-472F-A55C-DA599FEDCF88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9FDCC65F-DE2D-4FE5-9449-76B517D91476}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Droid", "Sample.Droid\Sample.Droid.csproj", "{E1DC9439-0E61-45B3-B581-B58F8E355214}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +74,16 @@ Global
 		{4F6F8945-C6AB-472F-A55C-DA599FEDCF88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F6F8945-C6AB-472F-A55C-DA599FEDCF88}.Release|ARM.ActiveCfg = Release|Any CPU
 		{4F6F8945-C6AB-472F-A55C-DA599FEDCF88}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E1DC9439-0E61-45B3-B581-B58F8E355214}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +91,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7A82C2F6-2CDB-4C17-835D-2C3D85B3D8BA} = {3A31F82A-5D6E-4DA8-B5BA-C40D0234B431}
 		{D3469411-FC5E-4FBF-A33D-26BF68BE32B9} = {3A31F82A-5D6E-4DA8-B5BA-C40D0234B431}
+		{E1DC9439-0E61-45B3-B581-B58F8E355214} = {3A31F82A-5D6E-4DA8-B5BA-C40D0234B431}
 	EndGlobalSection
 EndGlobal

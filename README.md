@@ -1,7 +1,7 @@
 TinyMessenger
 =====================================
 A (Tiny)Messenger to allow classes to loosely subscribe and publish messages.
-I have **not** made this project. This fork merely converts the original code to a PCL project and a few fixes to get it PCL ready.
+I have **not** made this project(Check the fork source for the original code by [Steven Robbins](https://github.com/grumpydev)). This fork merely converts the original code to a PCL project and a few fixes to get it PCL ready.
 
 ## Sample
 
