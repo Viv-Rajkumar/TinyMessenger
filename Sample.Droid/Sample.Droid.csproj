@@ -25,7 +25,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -36,7 +35,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -69,11 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sample.Core\Sample.Core.csproj">
-      <Project>{7a82c2f6-2cdb-4c17-835d-2c3d85b3d8ba}</Project>
+      <Project>{7A82C2F6-2CDB-4C17-835D-2C3D85B3D8BA}</Project>
       <Name>Sample.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\TinyMessenger\TinyMessenger.csproj">
-      <Project>{bbd54567-aa27-4ef0-89be-a44e23a13d9c}</Project>
+      <Project>{BBD54567-AA27-4EF0-89BE-A44E23A13D9C}</Project>
       <Name>TinyMessenger</Name>
     </ProjectReference>
   </ItemGroup>
